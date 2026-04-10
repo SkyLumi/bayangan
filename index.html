@@ -1,441 +1,492 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>THE SHADES UNEJ</title>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE SHADES UNEJ</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
 
-<div class="cursor" id="cursor"></div>
-<div class="cursor-ring" id="cursorRing"></div>
-<div class="grid-bg"></div>
-<div class="noise"></div>
-<div class="scanlines"></div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="grid-bg"></div>
+  <div class="noise"></div>
+  <div class="scanlines"></div>
 
-<!-- NAV -->
-<nav>
-  <a href="#hero" class="nav-logo">
-    <img class="logo-mark" src="assets/members/bayangan.png" alt="Bayangan logo">
-    <span>BAYANGAN</span>
-  </a>
-  <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#achievements">Wins</a></li>
-    <li><a href="#expertise">Expertise</a></li>
-    <li><a href="#members">Team</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-logo">
+      <img class="logo-mark" src="assets/members/bayangan.png" alt="Bayangan logo">
+      <span>BAYANGAN</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#achievements">Wins</a></li>
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#members">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-shader" id="heroShader"></div>
-  <div class="hero-vignette"></div>
-  <div class="corner-tl"></div>
-  <div class="corner-br"></div>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-shader" id="heroShader"></div>
+    <div class="hero-vignette"></div>
+    <div class="corner-tl"></div>
+    <div class="corner-br"></div>
 
-  <div class="hero-content">
-    <p class="hero-eyebrow">[ CTF TEAM · EST. 2024 ]</p>
-    <h1 class="hero-title">
-      <span class="glitch" data-text="THE SHADES">THE SHADES</span>
-    </h1>
-    <p class="hero-subtitle">
-      <span>Jember</span> University<span class="blink">_</span>
-    </p>
-    <div class="hero-cta">
-      <a href="#about" class="btn-primary">Explore Team</a>
-      <a href="https://ctftime.org/team/409851" class="btn-secondary" target="_blank">CTFtime Profile</a>
-    </div>
-  </div>
-
-  <div class="hero-scroll">
-    <span>Scroll</span>
-    <div class="scroll-line"></div>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section id="about">
-  <div class="section-container">
-    <div class="about-grid">
-      <div class="about-text">
-        <p class="section-label">Who We Are</p>
-        <h2 class="section-title">Shadows in<br>the <em>Noise</em></h2>
-        <div class="terminal-line">cat /etc/team/manifesto.txt</div>
-        <p>We are <strong>The Shades</strong> — a part of BTC community that focuses on competitive Capture The Flag (CTF) team operating from the intersection of deep technical skill and creative problem-solving. We don't just play CTFs; we learn the fundamental.</p>
-        <p>Our team specializes in <strong>Binary Exploitation</strong>, <strong>Reverse Engineering</strong>, <strong>Cryptography</strong>, and <strong>Web Security</strong>. From heap grooming to obscure WASM vulnerabilities, we go where the shadows are deepest.</p>
-        <div class="about-focus">
-          <div class="focus-item">
-            <div class="focus-dot"></div>
-            <span>Binary Exploitation & Memory Corruption</span>
-          </div>
-          <div class="focus-item">
-            <div class="focus-dot"></div>
-            <span>Reverse Engineering & Malware Analysis</span>
-          </div>
-          <div class="focus-item">
-            <div class="focus-dot"></div>
-            <span>Web Security & Client-Side Attacks</span>
-          </div>
-          <div class="focus-item">
-            <div class="focus-dot"></div>
-            <span>Cryptography & Protocol Analysis</span>
-          </div>
-        </div>
-      </div>
-      <div class="about-stats">
-        <div class="stat-card reveal-card">
-          <div class="stat-number">18</div>
-          <div class="stat-label">CTFs Competed</div>
-        </div>
-        <div class="stat-card reveal-card">
-          <div class="stat-number">4</div>
-          <div class="stat-label">Top-15 Finishes</div>
-        </div>
-        <div class="stat-card reveal-card">
-          <div class="stat-number">1</div>
-          <div class="stat-label">Top-5 Finishes</div>
-        </div>
-        <div class="stat-card reveal-card">
-          <div class="stat-number">9</div>
-          <div class="stat-label">Team Members</div>
-        </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">[ CTF TEAM · EST. 2024 ]</p>
+      <h1 class="hero-title">
+        <span class="glitch" data-text="THE SHADES">THE SHADES</span>
+      </h1>
+      <p class="hero-subtitle">
+        <span>Jember</span> University<span class="blink">_</span>
+      </p>
+      <div class="hero-cta">
+        <a href="#about" class="btn-primary">Explore Team</a>
+        <a href="https://ctftime.org/team/409851" class="btn-secondary" target="_blank">CTFtime Profile</a>
       </div>
     </div>
-  </div>
-</section>
 
-<div class="separator"></div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
 
-<!-- ACHIEVEMENTS -->
-<section id="achievements">
-  <div class="section-container">
-    <p class="section-label">Track Record</p>
-    <h2 class="section-title">Competition <em>Wins</em></h2>
-
-    <div class="achievements-list">
-      <div class="achievement-item reveal-card">
-        <div class="achievement-rank bronze">5th</div>
-        <div class="achievement-info">
-          <h3>Techcomfest 2025</h3>
-          <p>January 2026 · National · 50+ teams</p>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-label">Who We Are</p>
+          <h2 class="section-title">Shadows in<br>the <em>Noise</em></h2>
+          <div class="terminal-line">cat /etc/team/manifesto.txt</div>
+          <p>We are <strong>The Shades</strong> — part of BTC community that focuses on competitive Capture The Flag
+            (CTF) team operating from the intersection of deep technical skill and creative problem-solving. We don't
+            just play CTFs; we learn the fundamental.</p>
+          <p>Our team specializes in <strong>Binary Exploitation</strong>, <strong>Reverse Engineering</strong>,
+            <strong>Cryptography</strong>, and <strong>Web Security</strong>. From heap grooming to obscure WASM
+            vulnerabilities, we go where the shadows are deepest.</p>
+          <div class="about-focus">
+            <div class="focus-item">
+              <div class="focus-dot"></div>
+              <span>Binary Exploitation & Memory Corruption</span>
+            </div>
+            <div class="focus-item">
+              <div class="focus-dot"></div>
+              <span>Reverse Engineering & Malware Analysis</span>
+            </div>
+            <div class="focus-item">
+              <div class="focus-dot"></div>
+              <span>Web Security & Client-Side Attacks</span>
+            </div>
+            <div class="focus-item">
+              <div class="focus-dot"></div>
+              <span>Cryptography & Protocol Analysis</span>
+            </div>
+          </div>
         </div>
-        <span class="achievement-badge badge-purple">Finalist</span>
-      </div>
-      <div class="achievement-item reveal-card">
-        <div class="achievement-rank bronze">11th</div>
-        <div class="achievement-info">
-          <h3>Compfest 17</h3>
-          <p>November 2025 · National · 100+ teams</p>
+        <div class="about-stats">
+          <div class="stat-card reveal-card">
+            <div class="stat-number">18</div>
+            <div class="stat-label">CTFs Competed</div>
+          </div>
+          <div class="stat-card reveal-card">
+            <div class="stat-number">4</div>
+            <div class="stat-label">Top-15 Finishes</div>
+          </div>
+          <div class="stat-card reveal-card">
+            <div class="stat-number">1</div>
+            <div class="stat-label">Top-5 Finishes</div>
+          </div>
+          <div class="stat-card reveal-card">
+            <div class="stat-number">9</div>
+            <div class="stat-label">Team Members</div>
+          </div>
         </div>
-        <span class="achievement-badge badge-purple">Finalist</span>
-      </div>
-      <div class="achievement-item reveal-card">
-        <div class="achievement-rank bronze">6th</div>
-        <div class="achievement-info">
-          <h3>ACE CTF 2025</h3>
-          <p>July 2025 · National · 50+ teams</p>
-        </div>
-        <span class="achievement-badge badge-purple">Finalist</span>
-      </div>
-      <div class="achievement-item reveal-card">
-        <div class="achievement-rank bronze">24th</div>
-        <div class="achievement-info">
-          <h3>0bscuri7y 2025</h3>
-          <p>May 2025 · International · 500+ teams</p>
-        </div>
-        <span class="achievement-badge badge-purple">Finalist</span>
-      </div>
-      <div class="achievement-item reveal-card">
-        <div class="achievement-rank bronze">8th</div>
-        <div class="achievement-info">
-          <h3>Techcomfest 2025</h3>
-          <p>January 2025 · National · 40+ teams</p>
-        </div>
-        <span class="achievement-badge badge-purple">Finalist</span>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="separator"></div>
+  <div class="separator"></div>
 
-<!-- EXPERTISE -->
-<section id="expertise">
-  <div class="section-container">
-    <p class="section-label">Capabilities</p>
-    <h2 class="section-title">Our <em>Arsenal</em></h2>
-    <div class="expertise-grid">
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="section-container">
+      <p class="section-label">Track Record</p>
+      <h2 class="section-title">Competition <em>Wins</em></h2>
 
-      <!-- PWN -->
-      <div class="expertise-card reveal-card">
-        <div class="expertise-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      <div class="achievements-list">
+        <div class="achievement-item reveal-card">
+          <div class="achievement-rank bronze">5th</div>
+          <div class="achievement-info">
+            <h3>Techcomfest 2025</h3>
+            <p>January 2026 · National · 50+ teams</p>
+          </div>
+          <span class="achievement-badge badge-purple">Finalist</span>
         </div>
-        <div class="expertise-name">PWN</div>
-        <div class="expertise-desc">Heap exploitation, ROP chains, kernel pwn, sandbox escapes</div>
-        <div class="expertise-tag">Binary Exp</div>
-      </div>
-
-      <!-- REV -->
-      <div class="expertise-card reveal-card">
-        <div class="expertise-icon">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+        <div class="achievement-item reveal-card">
+          <div class="achievement-rank bronze">11th</div>
+          <div class="achievement-info">
+            <h3>Compfest 17</h3>
+            <p>November 2025 · National · 100+ teams</p>
+          </div>
+          <span class="achievement-badge badge-purple">Finalist</span>
         </div>
-        <div class="expertise-name">REV</div>
-        <div class="expertise-desc">Disassembly, decompilation, anti-debug, obfuscation</div>
-        <div class="expertise-tag">Reversing</div>
-      </div>
-
-      <!-- WEB -->
-      <div class="expertise-card reveal-card">
-        <div class="expertise-icon">
-          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        <div class="achievement-item reveal-card">
+          <div class="achievement-rank bronze">6th</div>
+          <div class="achievement-info">
+            <h3>ACE CTF 2025</h3>
+            <p>July 2025 · National · 50+ teams</p>
+          </div>
+          <span class="achievement-badge badge-purple">Finalist</span>
         </div>
-        <div class="expertise-name">WEB</div>
-        <div class="expertise-desc">XSS, SSRF, deserialization, prototype pollution, OAuth</div>
-        <div class="expertise-tag">Web Sec</div>
-      </div>
-
-      <!-- CRYPTO -->
-      <div class="expertise-card reveal-card">
-        <div class="expertise-icon">
-          <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <div class="achievement-item reveal-card">
+          <div class="achievement-rank bronze">24th</div>
+          <div class="achievement-info">
+            <h3>0bscuri7y 2025</h3>
+            <p>May 2025 · International · 500+ teams</p>
+          </div>
+          <span class="achievement-badge badge-purple">Finalist</span>
         </div>
-        <div class="expertise-name">CRYPTO</div>
-        <div class="expertise-desc">RSA, ECC, lattice attacks, side-channels, custom cipher</div>
-        <div class="expertise-tag">Cryptography</div>
-      </div>
-
-      <!-- FORENSICS -->
-      <div class="expertise-card reveal-card">
-        <div class="expertise-icon">
-          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <div class="achievement-item reveal-card">
+          <div class="achievement-rank bronze">8th</div>
+          <div class="achievement-info">
+            <h3>Techcomfest 2025</h3>
+            <p>January 2025 · National · 40+ teams</p>
+          </div>
+          <span class="achievement-badge badge-purple">Finalist</span>
         </div>
-        <div class="expertise-name">FORENSICS</div>
-        <div class="expertise-desc">PCAP analysis, steganography, memory forensics, log analysis</div>
-        <div class="expertise-tag">Digital Forensics</div>
       </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="separator"></div>
+  <div class="separator"></div>
 
-<!-- MEMBERS -->
-<section id="members">
-  <div class="section-container">
-    <p class="section-label">The Team</p>
-    <h2 class="section-title">Meet the <em>Shades</em></h2>
-    <div class="members-grid">
+  <!-- EXPERTISE -->
+  <section id="expertise">
+    <div class="section-container">
+      <p class="section-label">Capabilities</p>
+      <h2 class="section-title">Our <em>Arsenal</em></h2>
+      <div class="expertise-grid">
 
-      <div class="member-card reveal-card">
-        <div class="member-avatar">
-          <img class="member-photo" src="assets/members/stanis.png" alt="stanislaus">
-          <div class="member-status"></div>
-        </div>
-        <div class="member-info">
-          <div class="member-handle"><span>@</span>Stanislaus Jiwandana Pinasthika</div>
-          <div class="member-role">Instructor</div>
-          <div class="member-tags">
-            <span class="member-tag tag-misc">Instructor</span>
+        <!-- PWN -->
+        <div class="expertise-card reveal-card">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5z" />
+              <path d="M2 17l10 5 10-5" />
+              <path d="M2 12l10 5 10-5" />
+            </svg>
           </div>
+          <div class="expertise-name">PWN</div>
+          <div class="expertise-desc">Heap exploitation, ROP chains, kernel pwn, sandbox escapes</div>
+          <div class="expertise-tag">Binary Exp</div>
         </div>
-      </div>
 
-      <div class="member-card reveal-card">
-        <div class="member-avatar">
-          <img class="member-photo" src="https://avatars.githubusercontent.com/u/93416709?s=400&u=16a371cbfc76e22c1201ee96dd5cfb0387e83174&v=4" alt="skylumi">
-          <div class="member-status"></div>
-        </div>
-        <div class="member-info">
-          <div class="member-handle"><span>@</span>Skylumi</div>
-          <div class="member-role">Founder · Pwn & Reverse Engineer</div>
-          <div class="member-tags">
-            <span class="member-tag tag-misc">Founder</span>
-            <span class="member-tag tag-pwn">Pwn</span>
-            <span class="member-tag tag-rev">Rev</span>
+        <!-- REV -->
+        <div class="expertise-card reveal-card">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+            </svg>
           </div>
+          <div class="expertise-name">REV</div>
+          <div class="expertise-desc">Disassembly, decompilation, anti-debug, obfuscation</div>
+          <div class="expertise-tag">Reversing</div>
         </div>
-      </div>
 
-      <div class="member-card reveal-card">
-        <div class="member-avatar">
-          <img class="member-photo" src="https://cdn.discordapp.com/avatars/1265568289707397224/f3e783a746f27cb4f71e2d071e96e6d7.webp" alt="ckptw">
-          <div class="member-status"></div>
-        </div>
-        <div class="member-info">
-          <div class="member-handle"><span>@</span>Ckptw</div>
-          <div class="member-role">Cryptographer Specialist</div>
-          <div class="member-tags">
-            <span class="member-tag tag-misc">Founder</span>
-            <span class="member-tag tag-crypto">Crypto</span>
+        <!-- WEB -->
+        <div class="expertise-card reveal-card">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <path
+                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
           </div>
+          <div class="expertise-name">WEB</div>
+          <div class="expertise-desc">XSS, SSRF, deserialization, prototype pollution, OAuth</div>
+          <div class="expertise-tag">Web Sec</div>
         </div>
-      </div>
 
-      <div class="member-card reveal-card">
-        <div class="member-avatar">
-          <img class="member-photo" src="https://cdn.discordapp.com/avatars/1385859537785065482/118c7422d9977203be0ff4238fd3af62.webp" alt="orca">
-          <div class="member-status"></div>
-        </div>
-        <div class="member-info">
-          <div class="member-handle"><span>@</span>Orca</div>
-          <div class="member-role">Team Lead · Web Security Expert</div>
-          <div class="member-tags">
-            <span class="member-tag tag-misc">Team Lead</span>
-            <span class="member-tag tag-web">Web</span>
-            <span class="member-tag tag-forensics">Forensics</span>
+        <!-- CRYPTO -->
+        <div class="expertise-card reveal-card">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+            </svg>
           </div>
+          <div class="expertise-name">CRYPTO</div>
+          <div class="expertise-desc">RSA, ECC, lattice attacks, side-channels, custom cipher</div>
+          <div class="expertise-tag">Cryptography</div>
         </div>
-      </div>
 
-      <div class="member-card reveal-card">
-        <div class="member-avatar">
-          <img class="member-photo" src="https://cdn.discordapp.com/avatars/1124884230682460290/fd2683038ac2bbdd71b9cf6fa1d029a7.webp" alt="farel">
-          <div class="member-status"></div>
-        </div>
-        <div class="member-info">
-          <div class="member-handle"><span>@</span>Zafarell</div>
-          <div class="member-role">All Role</div>
-          <div class="member-tags">
-            <span class="member-tag tag-crypto">Crypto</span>
-            <span class="member-tag tag-rev">Rev</span>
-            <span class="member-tag tag-forensics">Forensics</span>
-            <span class="member-tag tag-misc">Misc</span>
-            <span class="member-tag tag-pwn">PWN</span>
+        <!-- FORENSICS -->
+        <div class="expertise-card reveal-card">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8" />
+              <path d="M21 21l-4.35-4.35" />
+            </svg>
           </div>
+          <div class="expertise-name">FORENSICS</div>
+          <div class="expertise-desc">PCAP analysis, steganography, memory forensics, log analysis</div>
+          <div class="expertise-tag">Digital Forensics</div>
         </div>
-      </div>
 
-      <div class="member-card reveal-card">
-        <div class="member-avatar">
-          <img class="member-photo" src="https://cdn.pixabay.com/photo/2023/06/01/12/02/excel-logo-8033473_1280.png" alt="excel">
-        </div>
-        <div class="member-info">
-          <div class="member-handle"><span>@</span>Excel</div>
-          <div class="member-role">Forensics & Web Exploit</div>
-          <div class="member-tags">
-            <span class="member-tag tag-forensics">Forensics</span>
-            <span class="member-tag tag-web">Web</span>
-          </div>
-        </div>
       </div>
-
-      <div class="member-card reveal-card">
-        <div class="member-avatar">
-          <img class="member-photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKk2rD_EiwGg21WR8rNv61nPf2eJhTmATeCw&s" alt="risma">
-        </div>
-        <div class="member-info">
-          <div class="member-handle"><span>@</span>Risma</div>
-          <div class="member-role">Cryptographer</div>
-          <div class="member-tags">
-            <span class="member-tag tag-crypto">Crypto</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-card reveal-card">
-        <div class="member-avatar">
-          <img class="member-photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5EsZe4cl0_RYe3POgyZyWYOk59BGGkwkLA&s" alt="andro">
-        </div>
-        <div class="member-info">
-          <div class="member-handle"><span>@</span>Andro</div>
-          <div class="member-role">Reverse Engineer & PWN</div>
-          <div class="member-tags">
-            <span class="member-tag tag-rev">Rev</span>
-            <span class="member-tag tag-pwn">PWN</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="member-card reveal-card">
-        <div class="member-avatar">
-          <img class="member-photo" src="assets/members/falah.jpeg" alt="ikantuk">
-        </div>
-        <div class="member-info">
-          <div class="member-handle"><span>@</span>Ikantuk</div>
-          <div class="member-role">Web Exploit</div>
-          <div class="member-tags">
-            <span class="member-tag tag-web">Web</span>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="separator"></div>
+  <div class="separator"></div>
 
-<!-- CONTACT -->
-<section id="contact">
-  <div class="section-container">
-    <div class="contact-inner">
-      <div class="contact-text">
-        <p class="section-label">Find Us</p>
-        <h2 class="section-title">Reach the <em>Shadows</em></h2>
-        <p>We're always looking for talented individuals to join the team, or just connect with fellow hackers. Find us across the platforms below — drop us a message, join the Discord, or follow our journey on CTFtime.</p>
-        <div class="social-links">
-          <a href="https://github.com" class="social-link" target="_blank">
-            <div class="social-icon">
-              <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+  <!-- MEMBERS -->
+  <section id="members">
+    <div class="section-container">
+      <p class="section-label">The Team</p>
+      <h2 class="section-title">Meet the <em>Shades</em></h2>
+      <div class="members-grid">
+
+        <div class="member-card reveal-card">
+          <div class="member-avatar">
+            <img class="member-photo" src="assets/members/stanis.png" alt="stanislaus">
+            <div class="member-status"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-handle"><span>@</span>Stanislaus Jiwandana Pinasthika</div>
+            <div class="member-role">Instructor</div>
+            <div class="member-tags">
+              <span class="member-tag tag-misc">Instructor</span>
             </div>
-            <div class="social-info">
-              <div class="social-name">GitHub</div>
-              <div class="social-desc">github.com/the-shades-ctf</div>
+          </div>
+        </div>
+
+        <div class="member-card reveal-card">
+          <div class="member-avatar">
+            <img class="member-photo"
+              src="https://avatars.githubusercontent.com/u/93416709?s=400&u=16a371cbfc76e22c1201ee96dd5cfb0387e83174&v=4"
+              alt="skylumi">
+            <div class="member-status"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-handle"><span>@</span>Skylumi</div>
+            <div class="member-role">Founder · Pwn & Reverse Engineer</div>
+            <div class="member-tags">
+              <span class="member-tag tag-misc">Founder</span>
+              <span class="member-tag tag-pwn">Pwn</span>
+              <span class="member-tag tag-rev">Rev</span>
             </div>
-            <span class="social-arrow">→</span>
-          </a>
-          <a href="https://ctftime.org/team/409851" class="social-link" target="_blank">
-            <div class="social-icon">
-              <svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+        </div>
+
+        <div class="member-card reveal-card">
+          <div class="member-avatar">
+            <img class="member-photo"
+              src="https://cdn.discordapp.com/avatars/1265568289707397224/f3e783a746f27cb4f71e2d071e96e6d7.webp"
+              alt="ckptw">
+            <div class="member-status"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-handle"><span>@</span>Ckptw</div>
+            <div class="member-role">Cryptographer Specialist</div>
+            <div class="member-tags">
+              <span class="member-tag tag-misc">Founder</span>
+              <span class="member-tag tag-crypto">Crypto</span>
             </div>
-            <div class="social-info">
-              <div class="social-name">CTFtime</div>
-              <div class="social-desc">ctftime.org/team/409851</div>
+          </div>
+        </div>
+
+        <div class="member-card reveal-card">
+          <div class="member-avatar">
+            <img class="member-photo"
+              src="https://cdn.discordapp.com/avatars/1385859537785065482/118c7422d9977203be0ff4238fd3af62.webp"
+              alt="orca">
+            <div class="member-status"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-handle"><span>@</span>Orca</div>
+            <div class="member-role">Team Lead · Web Security Expert</div>
+            <div class="member-tags">
+              <span class="member-tag tag-misc">Team Lead</span>
+              <span class="member-tag tag-web">Web</span>
+              <span class="member-tag tag-forensics">Forensics</span>
             </div>
-            <span class="social-arrow">→</span>
-          </a>
-          <a href="https://discord.gg/MPfBtueWpx" class="social-link" target="_blank">
-            <div class="social-icon">
-              <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+        </div>
+
+        <div class="member-card reveal-card">
+          <div class="member-avatar">
+            <img class="member-photo"
+              src="https://cdn.discordapp.com/avatars/1124884230682460290/fd2683038ac2bbdd71b9cf6fa1d029a7.webp"
+              alt="farel">
+            <div class="member-status"></div>
+          </div>
+          <div class="member-info">
+            <div class="member-handle"><span>@</span>Zafarell</div>
+            <div class="member-role">All Role</div>
+            <div class="member-tags">
+              <span class="member-tag tag-crypto">Crypto</span>
+              <span class="member-tag tag-rev">Rev</span>
+              <span class="member-tag tag-forensics">Forensics</span>
+              <span class="member-tag tag-misc">Misc</span>
+              <span class="member-tag tag-pwn">PWN</span>
             </div>
-            <div class="social-info">
-              <div class="social-name">Discord</div>
-              <div class="social-desc">discord.gg/the-shades</div>
+          </div>
+        </div>
+
+        <div class="member-card reveal-card">
+          <div class="member-avatar">
+            <img class="member-photo" src="https://cdn.pixabay.com/photo/2023/06/01/12/02/excel-logo-8033473_1280.png"
+              alt="excel">
+          </div>
+          <div class="member-info">
+            <div class="member-handle"><span>@</span>Excel</div>
+            <div class="member-role">Forensics & Web Exploit</div>
+            <div class="member-tags">
+              <span class="member-tag tag-forensics">Forensics</span>
+              <span class="member-tag tag-web">Web</span>
             </div>
-            <span class="social-arrow">→</span>
-          </a>
-          <a href="https://twitter.com" class="social-link" target="_blank">
-            <div class="social-icon">
-              <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+          </div>
+        </div>
+
+        <div class="member-card reveal-card">
+          <div class="member-avatar">
+            <img class="member-photo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKk2rD_EiwGg21WR8rNv61nPf2eJhTmATeCw&s"
+              alt="risma">
+          </div>
+          <div class="member-info">
+            <div class="member-handle"><span>@</span>Risma</div>
+            <div class="member-role">Cryptographer</div>
+            <div class="member-tags">
+              <span class="member-tag tag-crypto">Crypto</span>
             </div>
-            <div class="social-info">
-              <div class="social-name">Twitter / X</div>
-              <div class="social-desc">@theshades_ctf</div>
+          </div>
+        </div>
+
+        <div class="member-card reveal-card">
+          <div class="member-avatar">
+            <img class="member-photo"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5EsZe4cl0_RYe3POgyZyWYOk59BGGkwkLA&s"
+              alt="andro">
+          </div>
+          <div class="member-info">
+            <div class="member-handle"><span>@</span>Andro</div>
+            <div class="member-role">Reverse Engineer & PWN</div>
+            <div class="member-tags">
+              <span class="member-tag tag-rev">Rev</span>
+              <span class="member-tag tag-pwn">PWN</span>
             </div>
-            <span class="social-arrow">→</span>
-          </a>
+          </div>
+        </div>
+
+        <div class="member-card reveal-card">
+          <div class="member-avatar">
+            <img class="member-photo" src="assets/members/falah.jpeg" alt="ikantuk">
+          </div>
+          <div class="member-info">
+            <div class="member-handle"><span>@</span>Ikantuk</div>
+            <div class="member-role">Web Exploit</div>
+            <div class="member-tags">
+              <span class="member-tag tag-web">Web</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="separator"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="contact-inner">
+        <div class="contact-text">
+          <p class="section-label">Find Us</p>
+          <h2 class="section-title">Reach the <em>Shadows</em></h2>
+          <p>We're always looking for talented individuals to join the team, or just connect with fellow hackers. Find
+            us across the platforms below — drop us a message, join the Discord, or follow our journey on CTFtime.</p>
+          <div class="social-links">
+            <a href="https://github.com" class="social-link" target="_blank">
+              <div class="social-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg>
+              </div>
+              <div class="social-info">
+                <div class="social-name">GitHub</div>
+                <div class="social-desc">github.com/the-shades-ctf</div>
+              </div>
+              <span class="social-arrow">→</span>
+            </a>
+            <a href="https://ctftime.org/team/409851" class="social-link" target="_blank">
+              <div class="social-icon">
+                <svg viewBox="0 0 24 24">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                </svg>
+              </div>
+              <div class="social-info">
+                <div class="social-name">CTFtime</div>
+                <div class="social-desc">ctftime.org/team/409851</div>
+              </div>
+              <span class="social-arrow">→</span>
+            </a>
+            <a href="https://discord.gg/MPfBtueWpx" class="social-link" target="_blank">
+              <div class="social-icon">
+                <svg viewBox="0 0 24 24">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
+              </div>
+              <div class="social-info">
+                <div class="social-name">Discord</div>
+                <div class="social-desc">discord.gg/the-shades</div>
+              </div>
+              <span class="social-arrow">→</span>
+            </a>
+            <a href="https://twitter.com" class="social-link" target="_blank">
+              <div class="social-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                </svg>
+              </div>
+              <div class="social-info">
+                <div class="social-name">Twitter / X</div>
+                <div class="social-desc">@theshades_ctf</div>
+              </div>
+              <span class="social-arrow">→</span>
+            </a>
+          </div>
         </div>
       </div>
-  </div>
-</section>
+  </section>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-logo">THE SHADES</div>
-  <div class="footer-text">Built in the <span>shadows</span> · 2026</div>
-  <div class="footer-text">All flags belong to us <span>// 0x00</span></div>
-</footer>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">THE SHADES</div>
+    <div class="footer-text">Built in the <span>shadows</span> · 2026</div>
+    <div class="footer-text">All flags belong to us <span>// 0x00</span></div>
+  </footer>
 
-<!-- THREE.JS SHADER BACKGROUND -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
-<script src="script.js" defer></script>
+  <!-- THREE.JS SHADER BACKGROUND -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js"></script>
+  <script src="script.js" defer></script>
 </body>
+
 </html>
